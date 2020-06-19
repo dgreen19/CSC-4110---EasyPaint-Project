@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\imagearea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\datasingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\additionaltools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\abstracteffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\negativeeffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\grayeffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\binarizationeffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\effectwithsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\gammaeffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\undocommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\colorchooser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\palettebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\palettebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\shortcutedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\customfiltersettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\sharpenfiltersettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\gaussianblurfiltersettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\imagepreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\resizedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\textdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\effectsettingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\diagramnamedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\numberdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\abstractinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\abstractselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\selectioninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\pencilinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\lineinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\eraserinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\rectangleinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\ellipseinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\fillinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\sprayinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\magnifierinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\colorpickerinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\curvelineinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\textinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\concavepentagoninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexpentagoninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\concavehexagoninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexhexagoninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\scalenetriangleinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\obtusetriangleinstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\irregularpentagoninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\regularpentagoninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\concavepentagonselectioninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexpentagonselectioninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexhexagonselectioninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\scalenetriangularselectioninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\freeformselectioninstrument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\moc_easypaintenums.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\moc_imagearea.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\moc_datasingleton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\moc_additionaltools.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_abstracteffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_negativeeffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_grayeffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_binarizationeffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_customeffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_effectwithsettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_gammaeffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_gaussianblureffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\effects\moc_sharpeneffect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\moc_undocommand.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_toolbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_colorchooser.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_palettebar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_palettebutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_shortcutedit.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_abstracteffectsettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_customfiltersettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_sharpenfiltersettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_gaussianblurfiltersettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\widgets\moc_imagepreview.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\dialogs\moc_resizedialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\dialogs\moc_settingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\dialogs\moc_textdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\dialogs\moc_effectsettingsdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\dialogs\moc_diagramnamedialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\dialogs\moc_numberdialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_abstractinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_abstractselection.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_selectioninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_pencilinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_lineinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_eraserinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_rectangleinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_ellipseinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_fillinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_sprayinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_magnifierinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_colorpickerinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_curvelineinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_textinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_concavepentagoninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_convexpentagoninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_concavehexagoninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_convexhexagoninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_scalenetriangleinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_obtusetriangleinstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_irregularpentagoninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_regularpentagoninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_concavepentagonselectioninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_convexpentagonselectioninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_convexhexagonselectioninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_scalenetriangularselectioninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\sources\instruments\moc_freeformselectioninstrument.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\qrc_resources.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\easypaintenums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\imagearea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\datasingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\additionaltools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\abstracteffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\negativeeffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\grayeffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\binarizationeffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\customeffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\effectwithsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\gammaeffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\gaussianblureffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\effects\sharpeneffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\undocommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\toolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\colorchooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\palettebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\palettebutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\shortcutedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\abstracteffectsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\customfiltersettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\sharpenfiltersettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\gaussianblurfiltersettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\widgets\imagepreview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\resizedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\textdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\effectsettingsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\diagramnamedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\dialogs\numberdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\abstractinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\abstractselection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\selectioninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\pencilinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\lineinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\eraserinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\rectangleinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\ellipseinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\fillinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\sprayinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\magnifierinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\colorpickerinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\curvelineinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\textinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\concavepentagoninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexpentagoninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\concavehexagoninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexhexagoninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\scalenetriangleinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\obtusetriangleinstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\irregularpentagoninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\regularpentagoninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\concavepentagonselectioninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexpentagonselectioninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\convexhexagonselectioninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\scalenetriangularselectioninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\instruments\freeformselectioninstrument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\bdabf42e796bad48470cd764f84da47b\moc_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\bdabf42e796bad48470cd764f84da47b\moc_easypaintenums.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\bdabf42e796bad48470cd764f84da47b\moc_imagearea.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\bdabf42e796bad48470cd764f84da47b\moc_datasingleton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\bdabf42e796bad48470cd764f84da47b\moc_additionaltools.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_abstracteffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_negativeeffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_grayeffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_binarizationeffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_customeffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_effectwithsettings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_gammaeffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_gaussianblureffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\ebad5e975fbc070dd2a92ccaa66f7c8f\moc_sharpeneffect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\bdabf42e796bad48470cd764f84da47b\moc_undocommand.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_toolbar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_colorchooser.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_palettebar.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_palettebutton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_shortcutedit.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_abstracteffectsettings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_customfiltersettings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_sharpenfiltersettings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_gaussianblurfiltersettings.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\f05f612834504e5f6b163b689226947e\moc_imagepreview.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\0efe746d153bf4b30504f94ec682847f\moc_resizedialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\0efe746d153bf4b30504f94ec682847f\moc_settingsdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\0efe746d153bf4b30504f94ec682847f\moc_textdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\0efe746d153bf4b30504f94ec682847f\moc_effectsettingsdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\0efe746d153bf4b30504f94ec682847f\moc_diagramnamedialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\0efe746d153bf4b30504f94ec682847f\moc_numberdialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_abstractinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_abstractselection.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_selectioninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_pencilinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_lineinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_eraserinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_rectangleinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_ellipseinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_fillinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_sprayinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_magnifierinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_colorpickerinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_curvelineinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_textinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_concavepentagoninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_convexpentagoninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_concavehexagoninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_convexhexagoninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_scalenetriangleinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_obtusetriangleinstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_irregularpentagoninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_regularpentagoninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_concavepentagonselectioninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_convexpentagonselectioninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_convexhexagonselectioninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_scalenetriangularselectioninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\441863bfb306b57c7b727aba4e6e21fb\moc_freeformselectioninstrument.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\resources.qrc" />
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{18097925-BFE9-3057-AB2D-852989B3BBB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{5BF46583-6EE0-3232-8BFA-D6E868B6D6AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF51CA71-720E-3CA9-82AE-E0B4E30FDA76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{E59CB239-2D44-36D1-A662-7B23807F5FE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F059CAB6-37B6-3C63-A3DE-2C76AA8A7DAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

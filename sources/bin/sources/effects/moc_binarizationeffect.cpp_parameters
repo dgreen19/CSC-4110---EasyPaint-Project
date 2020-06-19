@@ -1,0 +1,12 @@
+-IE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/.
+-IE:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include
+-IE:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtWidgets
+-IE:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtGui
+-IE:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtCore
+-IE:/Qt/Qt5.9.1/5.9.1/msvc2017_64/./mkspecs/win32-msvc
+-IE:/Qt/Qt5.9.1/5.9.1/msvc2017_64/include/QtANGLE
+-DWIN32
+--compiler-flavor=msvc
+-o
+E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/sources/effects/moc_binarizationeffect.cpp
+E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/effects/binarizationeffect.h

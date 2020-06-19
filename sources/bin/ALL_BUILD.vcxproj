@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9470BA11-A520-3760-AF20-F109D791E06F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\.;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\.\mkspecs\win32-msvc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\.;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\.\mkspecs\win32-msvc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\.;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\.\mkspecs\win32-msvc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\.;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtWidgets;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtGui;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtCore;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\.\mkspecs\win32-msvc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project" "-BE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin" --check-stamp-file "E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\resources.qrc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project" "-BE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin" --check-stamp-file "E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\resources.qrc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project" "-BE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin" --check-stamp-file "E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\resources.qrc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project" "-BE:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin" --check-stamp-file "E:/Documents/Wayne State University/Winter 2019/CSC 4110/Lab/csc4111w19grp1/Project/sources/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\resources.qrc;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.9.1\5.9.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\ZERO_CHECK.vcxproj">
+      <Project>{0E87E097-9E52-35D2-90AC-16292A2EC61F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Documents\Wayne State University\Winter 2019\CSC 4110\Lab\csc4111w19grp1\Project\sources\bin\easypaintGrp1.vcxproj">
+      <Project>{3B97A456-72D9-387C-8A98-15338BCA5644}</Project>
+      <Name>easypaintGrp1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
