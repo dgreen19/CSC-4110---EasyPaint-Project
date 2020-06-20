@@ -45,7 +45,7 @@ Installing the application is very simple.
 
 4. Double-click on "CSC-4110 EasyPaint Project-master.zip"
 
-5. "CSC-4110-EasyPaint-Project-master\sources\bin\Debug"
+5. Navigate to "CSC-4110-EasyPaint-Project-master\sources\bin\Debug"
 
 6.  Double-click on "easypaintGrp1". The application should start.
 
