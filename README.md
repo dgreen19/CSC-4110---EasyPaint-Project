@@ -6,7 +6,7 @@ EasyPaint
 
 EasyPaint is a simple graphics painting program
 
-You can watch a demo of this application [here](www.youtube.com)
+Video demo to be added shortly...
 
 EasyPaint is a part of QtDesktop project.
 
