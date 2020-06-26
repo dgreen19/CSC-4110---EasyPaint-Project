@@ -12,6 +12,13 @@ EasyPaint is a part of QtDesktop project.
 
 EasyPaint is a part of [Razor-qt's](https://github.com/Razor-qt) [3rd party applications](https://github.com/Razor-qt/razor-qt/wiki/3rd-party-applications).
 
+Known Bugs
+----------
+
+1. Convex Hexagon Selection Tool
+
+2. Convex Pentagon Selection Tool
+
 Installing
 ----------
 
