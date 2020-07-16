@@ -6,7 +6,7 @@ EasyPaint
 
 EasyPaint is a simple graphics painting program
 
-Video demo to be added shortly...
+[EasyPaint demo video](https://youtu.be/JlOlvSHaUyk)
 
 EasyPaint is a part of QtDesktop project.
 
@@ -15,7 +15,7 @@ EasyPaint is a part of [Razor-qt's](https://github.com/Razor-qt) [3rd party appl
 Known Bugs
 ----------
 
-1. Convex Hexagon Selection Tool
+1. Convex Hexagon Selection Tool explained in the demo [video](https://youtu.be/JlOlvSHaUyk?t=196)
 
 2. Convex Pentagon Selection Tool
 
