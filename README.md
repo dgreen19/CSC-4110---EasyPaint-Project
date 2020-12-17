@@ -26,7 +26,7 @@ Installing the application is very simple.
 
 ### Windows OS Instructions
 
-1. Click on the green "Clone or download" button near the top left of this repository.
+1. Click on the green "Clone or download" button near the top right of this repository.
 
 2. Select Download ZIP to download the zip file of this repository.
 
